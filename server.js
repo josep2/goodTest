@@ -11,15 +11,12 @@ var options = {
     }, {
         reporter: require('good-file'),
         events: { ops: '*' },
-        config: './test/fixtures/awesome_log'
+        config: './test/fixtures/my_log'
     }, {
         reporter: 'good-http',
         events: { error: '*' },
         config: {
-            endpoint: 'http://localhost:3000',
-            wreck: {
-                headers: { 'x-api-key' : 12345 }
-            }
+            endpoint: 'http://localhost:3100'
         }
     }]
 };

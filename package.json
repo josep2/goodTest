@@ -1,0 +1,19 @@
+{
+  "name": "pm2_hapi",
+  "version": "1.0.0",
+  "description": "Testing PM2 vs Good",
+  "main": "server.js",
+  "scripts": {
+    "test": "lab",
+    "start": "node server.js"
+  },
+  "author": "Jowanza Joseph <me@jowanza.com>",
+  "license": "MIT",
+  "dependencies": {
+    "good": "^6.3.0",
+    "good-http": "^5.1.0",
+    "hapi": "^9.3.1",
+    "lab": "^5.16.0",
+    "request": "^2.61.0"
+  }
+}
